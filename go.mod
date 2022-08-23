@@ -62,10 +62,10 @@ require (
 	google.golang.org/genproto v0.0.0-20220805133916-01dd62135a58
 	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.1
-	k8s.io/api v0.24.3
-	k8s.io/apimachinery v0.24.3
-	k8s.io/apiserver v0.24.3
-	k8s.io/client-go v0.24.3
+	k8s.io/api v0.24.4
+	k8s.io/apimachinery v0.24.4
+	k8s.io/apiserver v0.24.4
+	k8s.io/client-go v0.24.4
 	k8s.io/code-generator v0.24.3
 	k8s.io/klog/v2 v2.70.2-0.20220707122935-0990e81f1a8f
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
@@ -278,7 +278,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apiextensions-apiserver v0.24.2 // indirect
-	k8s.io/component-base v0.24.3 // indirect
+	k8s.io/component-base v0.24.4 // indirect
 	k8s.io/gengo v0.0.0-20220613173612-397b4ae3bce7 // indirect
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
