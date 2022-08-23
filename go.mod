@@ -5,7 +5,7 @@ go 1.17
 require (
 	cloud.google.com/go/compute v1.7.0
 	cloud.google.com/go/monitoring v1.5.0
-	cloud.google.com/go/storage v1.24.0
+	cloud.google.com/go/storage v1.25.0
 	github.com/Azure/azure-amqp-common-go/v3 v3.2.1
 	github.com/Azure/azure-event-hubs-go/v3 v3.3.16
 	github.com/Azure/azure-kusto-go v0.7.0
