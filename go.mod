@@ -5,11 +5,12 @@ go 1.18
 require (
 	cloud.google.com/go/compute v1.9.0
 	cloud.google.com/go/monitoring v1.6.0
-	cloud.google.com/go/storage v1.26.0
+	cloud.google.com/go/storage v1.27.0
 	github.com/Azure/azure-amqp-common-go/v3 v3.2.3
 	github.com/Azure/azure-event-hubs-go/v3 v3.3.18
 	github.com/Azure/azure-kusto-go v0.8.0
 	github.com/Azure/azure-sdk-for-go v66.0.0+incompatible
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.1.3
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.1.0
 	github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus v1.1.0
 	github.com/Azure/azure-storage-blob-go v0.15.0
@@ -58,8 +59,8 @@ require (
 	github.com/xhit/go-str2duration/v2 v2.0.0
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a
 	go.mongodb.org/mongo-driver v1.10.2
-	google.golang.org/api v0.95.0
-	google.golang.org/genproto v0.0.0-20220909194730-69f6226f97e5
+	google.golang.org/api v0.97.0
+	google.golang.org/genproto v0.0.0-20220920201722-2b89144ce006
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	k8s.io/api v0.24.4
@@ -104,7 +105,6 @@ require (
 	cloud.google.com/go/iam v0.4.0 // indirect
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.1.3 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.1 // indirect
 	github.com/Azure/go-amqp v0.17.5 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
