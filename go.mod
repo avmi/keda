@@ -66,20 +66,22 @@ require (
 	google.golang.org/grpc v1.50.1
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.2.0
 	google.golang.org/protobuf v1.28.1
-	k8s.io/api v0.24.5
-	k8s.io/apimachinery v0.24.5
+	k8s.io/api v0.25.4
+	k8s.io/apimachinery v0.25.4
 	k8s.io/apiserver v0.24.5
-	k8s.io/client-go v0.24.5
-	k8s.io/code-generator v0.24.5
+	k8s.io/client-go v0.25.4
+	k8s.io/code-generator v0.25.4
 	k8s.io/klog/v2 v2.70.2-0.20220707122935-0990e81f1a8f
-	k8s.io/kube-openapi v0.0.0-20220401212409-b28bf2818661
-	k8s.io/metrics v0.24.5
+	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
+	k8s.io/metrics v0.25.4
 	knative.dev/pkg v0.0.0-20220930124718-7c4fef1af593
 	sigs.k8s.io/controller-runtime v0.12.3
 	sigs.k8s.io/controller-tools v0.9.0
 	sigs.k8s.io/custom-metrics-apiserver v1.24.0
 	sigs.k8s.io/kustomize/kustomize/v4 v4.5.7
 )
+
+require github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 
 replace (
 	// we need a version with license
@@ -303,10 +305,10 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30 // indirect
 	sigs.k8s.io/controller-runtime/tools/setup-envtest v0.0.0-20221109083014-8da9760581ed
-	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
+	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/kustomize/api v0.12.1 // indirect
 	sigs.k8s.io/kustomize/cmd/config v0.10.9 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.13.9 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
