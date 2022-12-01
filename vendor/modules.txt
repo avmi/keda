@@ -44,7 +44,7 @@ github.com/Azure/azure-amqp-common-go/v3/uuid
 github.com/Azure/azure-event-hubs-go/v3
 github.com/Azure/azure-event-hubs-go/v3/atom
 github.com/Azure/azure-event-hubs-go/v3/persist
-# github.com/Azure/azure-kusto-go v0.9.0
+# github.com/Azure/azure-kusto-go v0.9.1
 ## explicit; go 1.16
 github.com/Azure/azure-kusto-go/kusto
 github.com/Azure/azure-kusto-go/kusto/data/errors
